@@ -1,0 +1,9 @@
+/* Element Selector. */
+body {
+  font-size: 1.2em; /* em -> relative sizing*/
+  font-family: monospace;
+}
+
+h2 {
+  color: pink;
+}

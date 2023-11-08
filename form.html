@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/form.css">
+    <title>RSVP</title>
+  </head>
+  <body>
+    <h2>RSVP Form</h2>
+
+    <form>
+      <table>
+        <tr>
+          <td> Name: </td>
+          <td><input type="text" name="name" id="" placeholder="Enter name here." required></td>
+        </tr>
+        <tr>
+          <td> Email: </td>
+          <td><input type="email" name="email" id="" placeholder="Enter email here." required></td>
+        </tr>
+        <tr>
+          <td> Vegetarian: </td>
+          <td>
+            Meat <input type="radio" name="vegetarian" id="">
+            No Meat <input type="radio" name="vegetarian" id="">
+          </td>
+        </tr>
+        <tr>
+          <td> Pax: </td>
+          <td>
+            <select name="pax" id="">
+              <option value="1">One</option>
+              <option value="2" selected>Two</option>
+              <option value="3">Three</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td> Potluck: </td>
+          <td>
+            Chicken <input type="checkbox" name="chicken" id="">
+            Mutton <input type="checkbox" name="mutton" id="">
+            Salad <input type="checkbox" name="mutton" id="">
+            Sushi <input type="checkbox" name="mutton" id="">
+          </td>
+        </tr>
+        <tr>
+          <td> Comments: </td>
+          <td>
+            <textarea name="comments" id="" cols="30" rows="5"></textarea>
+
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button type="reset">Clear</button>
+            <button type="submit">Submit RSVP</button>
+          </td>
+
+        </tr>
+
+      </table>
+      
+
+      <h2><a href="/index.html">Back home</a></h2>
+    </form>
+    
+  </body>
+</html>
